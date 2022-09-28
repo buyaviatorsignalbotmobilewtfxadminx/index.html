@@ -5,7 +5,7 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>🌐wtfxadmin Signal Bot Mobile</title>
+    <title>✅Safe shopping site ✅</title>
 </head>
 <body>
     <style>
@@ -23,184 +23,121 @@
 
 
 <!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <title>Sayfa başlığı</title>
-</head>
+<html>
+
 <body>
-    <style>
-        body {
-  font-family: sans-serif;
-  font-size: 1em;
-  color: #333;
-  background-color: #ddd;
-}
-
-label {
-  clear: both;
-  display: block;
-  font-size: 0.85em;
-  font-weight: bold;
-  padding: 0.8em 0 0.2em 0;
-  user-select: none;
-}
-
-input, button {
-  float: left;
-  font-size: 1em;
-  padding: 3px 6px;
-  margin: 0;
-  border: 1px solid #333;
-  outline: 0;
-  box-shadow: none;
-}
-
-::-moz-focus-inner { 
-  padding: 0;
-  border: 0;
-}
-
-input {
-  width: 15em;
-  background-color: #fff;
-  border-right: 0 none;
-  border-radius: 3px 0 0 3px;
-}
-
-button {
-  position: relative;
-  background-color: #aaa;
-  border-radius: 0 3px 3px 0;
-  cursor: pointer;
-}
-
-.copied::after {
-  position: absolute;
-  top: 12%;
-  right: 110%;
-  display: block;
-  content: "copied";
-  font-size: 0.75em;
-  padding: 2px 3px;
-  color: #fff;
-  background-color: #22a;
-  border-radius: 3px;
-  opacity: 0;
-  will-animate: opacity, transform;
-  animation: showcopied 1.5s ease;
-}
-
-@keyframes showcopied {
-  0% {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  70% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  100% {
-    opacity: 0;
-  }
-}
-    </style>
     <script>
-        /*
-	Copy text from any appropriate field to the clipboard
-  By Craig Buckler, @craigbuckler
-  use it, abuse it, do whatever you like with it!
-*/
-(function() {
-
-	'use strict';
-  
-  // click events
-  document.body.addEventListener('click', copy, true);
-
-	// event handler
-	function copy(e) {
-
-    // find target element
-    var 
-      t = e.target,
-      c = t.dataset.copytarget,
-      inp = (c ? document.querySelector(c) : null);
-      
-    // is element selectable?
-    if (inp && inp.select) {
-      
-      // select text
-      inp.select();
-
-      try {
-        // copy text
-        document.execCommand('copy');
-        inp.blur();
-        
-        // copied animation
-        t.classList.add('copied');
-        setTimeout(function() { t.classList.remove('copied'); }, 1500);
-      }
-      catch (err) {
-        alert('please press Ctrl/Cmd+C to copy');
-      }
-      
-    }
-    
-	}
-
-})();
+        function myFunction(e) {
+  var copyText = e.target.previousElementSibling;
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("✅Payment address copied. Your Payment addres..: " + copyText.value);
+}
     </script>
+
+  
+  <div>
+     
+<p><b>🪙 Payeer wallet minimum •$50•</b></p>
+    <input type="text" value="P1054349435" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
+
+
+  <div>
+      
+<p><b>🪙 Perfect money minimum •$50•</b></p>
+    <input type="text" value="U30353829" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
+
+  <div>
+      <p><b>🪙 Jeton wallet money minimum •$50•</b></p>
+    <input type="text" value="19762073" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
+
+
 </body>
-<label for="website">
+
+</html>
+
+<!DOCTYPE html>
+<html>
+<script>
+    function myFunction(e) {
+  var copyText = e.target.previousElementSibling;
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Payment address copied. Your Payment addres..: " + copyText.value);
+}
+</script>
+<body>
+
+  
+
+  <div>
+      <p><b>🪙 Bitcoin Payment minimum •0.007•</b></p>
+    <input type="text" value="33ER9ARXQkq27Zc763sPfdB1jZ4uCYVmhq" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
 
 
-💵 PAYEER WALLET PRİCE $50</label>
-<input type="text" id="website" value="P1054349435" />
-<button data-copytarget="#website">📋Copy payment address </button></button>
+  <div>
+      <p><b>🪙 Usdt tether 🔃Trc 20🔃•50 USDT•</b></p>
+    <input type="text" value="THmQLgemVx1394yYxMQfycXirzPtEygK4x" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
 
-<label for="twitter">💵 PERFECT MONEY PRİCE $50</label>
-<input type="text" id="twitter" value="U30353829" />
-<button data-copytarget="#twitter">📋Copy payment address </button>
-
-<label for="eth">💵 JETON WALLET PRİCE $50</label>
-<input type="text" id="ethereum" value="19762073" />
-<button data-copytarget="#ethereum">📋Copy payment address </button>
-
-
-<label for="eth">💵 MİNİMUM ••0,006••BİTCOİN NETWORK </label>
-<input type="text" id="aB" value="33ER9ARXQkq27Zc763sPfdB1jZ4uCYVmhq" />
-<button data-copytarget="#aB">📋Copy payment address </button>
-
-<label for="eth">💵 USDT TETHER TRC 20 NETWORK ••50••USDT </label>
-<input type="text" id="aBr" value="THmQLgemVx1394yYxMQfycXirzPtEygK4x" />
-<button data-copytarget="#aBr">📋Copy payment address </button>
-
-<label for="eth">💵 MİNİMUM ••0.09••ETHEREUM NETWORK </label>
-<input type="text" id="aBC" value="0x2B8f8ECF15be28a08BF3f5D9CAC0e7d52Ba437BA" />
-<button data-copytarget="#aBC">📋Copy payment address </button>
-
-<label for="eth">💵 MİNİMUM ••500••DOGECOİN NETWORK </label>
-<input type="text" id="aBV" value="9s8cbtrZJHdEgbRUo5ChBRi28Ct3a8RUJL" />
-<button data-copytarget="#aBV">📋Copy payment address </button>
-
-<label for="eth">💵 USDT TETHER AVAX C-CHAİN  NETWORK MİNİMUM •••50 USDT•••</label>
-<input type="text" id="aBd" value="0x2B8f8ECF15be28a08BF3f5D9CAC0e7d52Ba437BA" />
-<button data-copytarget="#aBd">📋Copy payment address </button>
-
-<label for="eth">💵 Pay directly with Coinbase Mail •••$50•• worth of cryptocurrencies </label>
-<input type="text" id="aBdc" value="trb935@gmail.com" />
-<button data-copytarget="#aBdc">📋Copy payment address </button>
+  <div>
+      <p><b>🪙 Ethereum network minimum •0.08•</b></p>
+    <input type="text" value="0x2B8f8ECF15be28a08BF3f5D9CAC0e7d52Ba437BA" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
 
 
-<label for="eth">💵 TRON TRX TRC 20 NETWORK••500 Trx•• </label>
-<input type="text" id="kimmi" value="TKscrX4uNyGQJwpub8BrWbdvWqPMghD8No" />
-<button  data-copytarget="#kimmi">📋Copy payment address  </button>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <script>
+      function myFunction(e) {
+  var copyText = e.target.previousElementSibling;
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Payment address copied. Your Payment addres..: " + copyText.value);
+}
+  </script>
+
+  <div>
+      <p><b>🪙 Usdt 🔃avax c-chain🔃•$50•</b></p>
+    <input type="text" value="0x2B8f8ECF15be28a08BF3f5D9CAC0e7d52Ba437BA" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
 
 
+  <div>
+      <p><b>✅ Coinbase •$40•</b></p>
+    <input type="text" value="trb935@gmail.com" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
+
+  <div>
+      <p><b>🪙 TronTrx🔃Trc 20 🔃 minimum •$600•</b></p>
+    <input type="text" value="TKscrX4uNyGQJwpub8BrWbdvWqPMghD8No" class="myInput">
+    <button onclick="myFunction(event)">📋Copy Payment addres</button>
+  </div>
 
 
+</body>
 
 </html>
 
@@ -227,56 +164,539 @@ button {
 </body>
 </html>
 
-
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Sayfa başlığı</title>
 </head>
 <body>
-    
+    <style>
+        * {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--fg: #17181c;
+	--shade1: #727274;
+	--shade2: #cccdd1;
+	--shade3: #f3f4f8;
+	--shade4: #ffffff;
+	--dur1: 1s;
+	--dur2: 6s;
+	font-size: calc(16px + (32 - 16)*(100vw - 320px)/(2560 - 320));
+}
+body {
+	background-image: linear-gradient(145deg,var(--shade3),var(--shade2));
+	color: var(--fg);
+	display: flex;
+	font: 1em/1.5 Hind, sans-serif;
+	flex-direction: column;
+	height: 100vh;
+}
+main {
+	margin: auto;
+}
+.preloader {
+	animation: largePopOut var(--dur1) linear;
+	border-radius: 50%;
+	box-shadow:
+		0.15em 0.15em 0.15em var(--shade4) inset,
+		-0.15em -0.15em 0.15em var(--shade1) inset,
+		1em 1em 2em var(--shade1), 
+		-1em -1em 2em var(--shade4);
+	margin-bottom: 3em;
+	position: relative;
+	width: 12em;
+	height: 12em;
+}
+.preloader__square {
+	animation: smallPopOut1 var(--dur1) linear, popInOut var(--dur2) var(--dur1) linear infinite;
+	border-radius: 0.5em;
+	box-shadow:
+		0.15em 0.15em 0.15em var(--shade4) inset,
+		-0.15em -0.15em 0.15em var(--shade1) inset,
+		0.25em 0.25em 0.5em var(--shade1),
+		-0.25em -0.25em 0.5em var(--shade4);
+	position: absolute;
+	top: 2.5em;
+	left: 2.5em;
+	width: 3em;
+	height: 3em;
+}
+.preloader__square:nth-child(n + 2):nth-child(-n + 3) {
+	left: 6.5em;
+}
+.preloader__square:nth-child(n + 3) {
+	top: 6.5em;
+}
+.preloader__square:nth-child(2) {
+	animation: smallPopOut2 var(--dur1) linear, move2 var(--dur2) var(--dur1) linear infinite;
+}
+.preloader__square:nth-child(3) {
+	animation: smallPopOut3 var(--dur1) linear, move3 var(--dur2) var(--dur1) linear infinite;
+}
+.preloader__square:nth-child(4) {
+	animation: smallPopOut4 var(--dur1) linear, move4 var(--dur2) var(--dur1) linear infinite;
+}
+.status {
+	animation: fadeIn var(--dur1) linear forwards;
+	text-align: center;
+}
+.status__dot {
+	animation: appear1 var(--dur1) var(--dur1) steps(1,start) infinite;
+	display: inline-block;
+}
+.status__dot:nth-child(2) {
+	animation: appear2 var(--dur1) var(--dur1) steps(1,start) infinite;
+}
+.status__dot:nth-child(3) {
+	animation: appear3 var(--dur1) var(--dur1) steps(1,start) infinite;
+}
+
+
+/* Animations */
+@keyframes largePopOut {
+	from, 20% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1), 
+			0 0 0 var(--shade4);
+	}
+	40% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			2em 2em 2em var(--shade1), 
+			-2em -2em 4em var(--shade4);
+	}
+	60%, to {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			1em 1em 2em var(--shade1), 
+			-1em -1em 2em var(--shade4);
+	}
+}
+@keyframes smallPopOut1 {
+	from, 40% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1), 
+			0 0 0 var(--shade4);
+	}
+	60% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+	}
+	80%, to {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+	}
+}
+
+@keyframes smallPopOut2 {
+	from, 45% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1), 
+			0 0 0 var(--shade4);
+	}
+	65% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+	}
+	85%, to {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+	}
+}
+
+@keyframes smallPopOut3 {
+	from, 50% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1), 
+			0 0 0 var(--shade4);
+	}
+	70% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+	}
+	90%, to {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+	}
+}
+
+@keyframes smallPopOut4 {
+	from, 55% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1), 
+			0 0 0 var(--shade4);
+	}
+	75% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+	}
+	95%, to {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+	}
+}
+@keyframes popInOut {
+	from {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+		transform: translate(0,0);
+	}
+	4% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(0,0);
+	}
+	8% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(0,0);
+	}
+	12%, 16% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(4em,0);
+	}
+	20% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(4em,0);
+	}
+	24%, 25% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+		transform: translate(4em,0);
+	}
+	29% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(4em,0);
+	}
+	33% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(4em,0);
+	}
+	37%, 41% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(4em,4em);
+	}
+	45% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(4em,4em);
+	}
+	49%, 50% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+		transform: translate(4em,4em);
+	}
+	54% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(4em,4em);
+	}
+	58% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(4em,4em);
+	}
+	62%, 66% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(0,4em);
+	}
+	70% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(0,4em);
+	}
+	74%, 75% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+		transform: translate(0,4em);
+	}
+	79% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(0,4em);
+	}
+	83% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(0,4em);
+	}
+	87%, 91% {
+		box-shadow:
+			0 0 0 var(--shade4) inset,
+			0 0 0 var(--shade1) inset,
+			0 0 0 var(--shade1),
+			0 0 0 var(--shade4);
+		transform: translate(0,0);
+	}
+	95% {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.5em 0.5em 0.5em var(--shade1),
+			-0.5em -0.5em 1em var(--shade4);
+		transform: translate(0,0);
+	}
+	99%, to {
+		box-shadow:
+			0.15em 0.15em 0.15em var(--shade4) inset,
+			-0.15em -0.15em 0.15em var(--shade1) inset,
+			0.25em 0.25em 0.5em var(--shade1),
+			-0.25em -0.25em 0.5em var(--shade4);
+		transform: translate(0,0);
+	}
+}
+@keyframes move2 {
+	from, 8% {
+		transform: translate(0,0);
+		width: 3em;
+		height: 3em;
+	}
+	12% {
+		transform: translate(-4em,0);
+		width: 7em;
+		height: 3em;
+	}
+	16%, 83% {
+		transform: translate(-4em,0);
+		width: 3em;
+		height: 3em;
+	}
+	87% {
+		transform: translate(-4em,0);
+		width: 3em;
+		height: 7em;
+	}
+	91%, to {
+		transform: translate(-4em,4em);
+		width: 3em;
+		height: 3em;
+	}
+}
+@keyframes move3 {
+	from, 33% {
+		transform: translate(0,0);
+		height: 3em;
+	}
+	37% {
+		transform: translate(0,-4em);
+		height: 7em;
+	}
+	41%, to {
+		transform: translate(0,-4em);
+		height: 3em;
+	}
+}
+@keyframes move4 {
+	from, 58% {
+		transform: translate(0,0);
+		width: 3em;
+	}
+	62% {
+		transform: translate(0,0);
+		width: 7em;
+	}
+	66%, to {
+		transform: translate(4em,0);
+		width: 3em;
+	}
+}
+@keyframes fadeIn {
+	from, 67% {
+		opacity: 0;
+	}
+	83.3%, to {
+		opacity: 1;
+	}
+}
+@keyframes appear1 {
+	from {
+		visibility: hidden;
+	}
+	33%, to {
+		visibility: visible;
+	}
+}
+@keyframes appear2 {
+	from, 33% {
+		visibility: hidden;
+	}
+	67%, to {
+		visibility: visible;
+	}
+}
+@keyframes appear3 {
+	from, 67% {
+		visibility: hidden;
+	}
+	to {
+		visibility: visible;
+	}
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--fg: #e3e4e8;
+		--shade1: #23252a;
+		--shade2: #3e424c;
+		--shade3: #4a4e5a;
+		--shade4: #686e7e;
+	}
+}
+    </style>
 </body>
-<div style="font-family: Roboto; border-radius: 5px; padding: 1px 30px; width: 75%;">
-   <h2 style="font-size:30px"></h2>
-   <form accept-charset="UTF-8" action="http://t.me/wtfxadmin//f/{your-form-endpoint-goes-here}" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
-      <div>
-         
-       
-         <label>   📥write your telegram ID or name in this part </label>
-         <div>
-            <input style="margin-top: 5px; background-color: #fff; height:35px; width:235px;" type="text" name="first_name" placeholder="Enter your name and surname" required="required">
-         </div>
-      </div>
-      <br>
-      <div>
-          
-         <label>📦In this section, write the e-mail address to which the Aviator Signal Bot Mobile APK application will be sent.</label>
-         <div>
-            <input style="margin-top: 5px;background-color: #fff; height:35px; width:235px;" type="email" name="email" placeholder="Enter your email address" required="required">
-         </div>
-      </div>
-      <br>
-      <div>
-         <label>📥Upload the payment receipt here, wtfxadmin will check it and the Aviator Signal Bot Mobile application will be sent to your e-mail address.</label>
-         <div>
-            
-         </div>
-      </div>
-      <div>
-          
-         <label>🪙Upload Payment document:</label>
-         <input type="file" name="file" required="required">
-      </div>
-      <br>
-      <input type="hidden" name="utf8" value="✓">
-      <button style="font-size:14px; background-color:#6b7ddf; color:#fff; font-weight:bold; padding:10px 35px; margin: 5px 0 0 0;" type="submit">🪙Upload the payment receipt! </button>
-      
-   </form>
-   <p></p>
-</div>
+<main>
+	<div class="preloader">
+		<div class="preloader__square"></div>
+		<div class="preloader__square"></div>
+		<div class="preloader__square"></div>
+		<div class="preloader__square"></div>
+	</div>
+	<div class="status">ⓌⓉⒻⓍⒶⒹⓂⒾⓃ<span class="status__dot">.</span><span class="status__dot">.</span><span class="status__dot">.</span></div>
+</main>
 </html>
+
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+	<title>Image Upload - Campuslife</title>
+	<style>
+	
+		html, body{background: #ececec; height: 100%; margin: 0; font-family: Arial;}
+		.main{height: 100%; display: flex; justify-content: center;}
+		.main .image-box{width:300px; margin-top: 40px;}
+		.main h2{text-align: center; color: #4D4D4D;}
+		.main .tb{width: 100%; height: 60px; margin-bottom: 5px; padding-left: 5px;}
+		.main .file_input{margin-top: 10px; margin-bottom: 10px;}
+		.main .btn{width: 100%; height: 40px; border: none; border-radius: 3px; background: #27a465; color: #f7f7f7;}
+		.main .msg{color: red; text-align: center;}
+	
+	</style>
+	</head>
+
+	<body>
+	<!-------------------Main Content------------------------------>
+	<div class="container main" >
+		<div class="image-box">
+			<h2>🪙 Enter the e-mail address to which the Aviator Signal Bot Mobile application will be sent and upload the payment receipt, it will be checked and sent to your e-mail address.🪙</h2>
+			<p><b>📨Aviator Signal Bot Mobile application will be sent to the address you entered!</b></p>
+			<form method="POST" name="upfrm" action="" enctype="multipart/form-data">
+				<div>
+					<input type="text" placeholder="Enter your e-mail address!" name="img-name" class="tb" />
+					<input type="file" name="fileImg" class="file_input" />
+					<input type="submit" value="Upload the payment receipt 🔃" name="btn_upload" class="btn"  />
+					
+				</div>
+			</form>
+			<div class="msg">
+
+			</div>
+		</div>
+	</div>
+	</body>
+	</html>
 
   
 
@@ -390,8 +810,16 @@ p {
 
     onclick="window.location.href = 'https://www.coinbase.com/join/rselol_0?src=android-link';"> 
 
-        🎉 Free cryptocurrency!
+    ➡️🎉 Free cryptocurrency!
 
     </button> 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body style="background-color:white;">
+
+
+</body>
+</html>
+
